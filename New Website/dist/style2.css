@@ -56,3 +56,15 @@ img {
 .text-center {
     text-align: center;
 }
+
+@media(max-width:500px) {
+    .container2 {
+        width: 80vw;
+        max-width: 90%;
+        margin: auto;
+    }
+    .carousel {
+        max-width: 480px;
+        margin: 0 vw;
+    }
+}
